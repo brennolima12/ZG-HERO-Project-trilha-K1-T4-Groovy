@@ -1,7 +1,7 @@
 # 🎯 Desafio do processo seletivo da ZG Soluções  
 
-# ZG-HERO-Project-trilha-K1-T4-Groovy
-# 📌 MVP do Sistema de Candidatos e Empresas
+## ZG-HERO-Project-trilha-K1-T4-Groovy
+### 📌 MVP do Sistema de Candidatos e Empresas
 
 ## ✅ Requisitos Obrigatórios
 - O programa deve manter um **array de candidatos** com **no mínimo 5 candidatos pré-cadastrados**:
@@ -39,5 +39,6 @@
 - Implementar a funcionalidade de **cadastro de novas empresas**.
 
 ---
+
 
 
