@@ -16,7 +16,7 @@ class Cadastro {
         def cep = reader.readLine()
         print "Descrição pessoal: "
         def descricao = reader.readLine()
-        print "Competências (separe por vírgula): "
+        print "Competências: "
         def competencias = reader.readLine().split(",").collect { it.trim() }
 
         candidatos << new Pessoa(nome, email, cpf, idade, estado, cep, descricao, competencias)
@@ -39,7 +39,7 @@ class Cadastro {
         def cep = reader.readLine()
         print "Descrição da empresa: "
         def descricao = reader.readLine()
-        print "Competências esperadas (separe por vírgula): "
+        print "Competências esperadas: "
         def competencias = reader.readLine().split(",").collect { it.trim() }
 
         empresas << new Empresa(nome, email, cnpj, pais, estado, cep, descricao, competencias)
