@@ -2,6 +2,7 @@
 
 ## ZG-HERO-Project-trilha-K1-T4-Groovy
 ### 📌 MVP do Sistema de Candidatos e Empresas
+**Desenvolvedor:** Brenno Lima
 
 ## ✅ Requisitos Obrigatórios
 - O programa deve manter um **array de candidatos** com **no mínimo 5 candidatos pré-cadastrados**:
@@ -39,6 +40,10 @@
 - Implementar a funcionalidade de **cadastro de novas empresas**.
 
 ---
+## 🧪 Requisito Extra – Testes Unitários
+
+- Foram criados **testes unitários** para validar a **etapa de cadastro de novos usuários** (candidato e empresa).
+- O teste assegura que, ao cadastrar um novo item, ele é corretamente inserido no array correspondente.
 
 
 
